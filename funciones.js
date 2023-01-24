@@ -5,3 +5,10 @@ function greet(name, lastName) {
 
 // Argumento para la funcion
 greet('Saul', 'Muñoz');
+
+//Calcular el cuadrado de un numero
+function cuadrado(number) {
+  return number * number;
+}
+
+console.log(cuadrado(3));
