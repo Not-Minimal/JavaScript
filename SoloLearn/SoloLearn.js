@@ -31,3 +31,20 @@ alert("This is an alert box!"); //Alert is used to create a message box
 /*
  * Multiline Comments
  * */
+//Data Types
+//Numbers
+var num = 42; //A number without decimals
+var price = 55.5; //A number with decimals
+document.write(prince);
+//Strings
+var name = 'Saul';
+var text = "Mi nombre es" + name;
+var text = "Mi nombre es 'Saul"; 
+//BackSlash \ (Escape Character)
+var sayHello = 'Hola Mundo \'Soy un programador en JavaScript \' ';
+document.write(sayHello);
+//Bololeans
+var isActive = true;
+vas isHoliday = false;
+//Notes: The Boolean value of 0 (zero), null, undefined, empty string is false.
+//Everything with a "real" value is true.
