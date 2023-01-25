@@ -1,14 +1,17 @@
-//Parametro para la funcion greet "name"
 function greet(name, lastName) {
-    console.log('Hola ' + name + ' ' + lastName);
+  if (name && lastName) {
+      console.log(`Hola ${name} ${lastName}`);
+  } else {
+      console.log("Por favor proporciona un nombre y apellido.")
+  }
 }
 
 // Argumento para la funcion
 greet('Saul', 'Muñoz');
 
 //Calcular el cuadrado de un numero
-function cuadrado(number) {
-  return number * number;
+function elevarAlCuadrado(number) {
+return number * number;
 }
 
-console.log(cuadrado(3));
+console.log(elevarAlCuadrado(3));
