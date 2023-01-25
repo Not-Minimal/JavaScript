@@ -28,3 +28,6 @@ document.write(x);
 //JavaScript Comments
 //This is a single line Comment
 alert("This is an alert box!"); //Alert is used to create a message box
+/*
+ * Multiline Comments
+ * */
