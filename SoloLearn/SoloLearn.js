@@ -47,4 +47,4 @@ document.write(sayHello);
 var isActive = true;
 vas isHoliday = false;
 //Notes: The Boolean value of 0 (zero), null, undefined, empty string is false.
-//Everything with a "real" value is true.
+//Everythin with a "real" value is true.
