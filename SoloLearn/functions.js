@@ -43,6 +43,13 @@ const humus = function (factor) {
       unidad += "s";
     }
     console.log("${cantidadIngrediente} ${unidad} ${nombre}");
+    ingrediente(1, "Lata", "Garbanzos");
+    ingrediente(1, "Raspado", "Limon");
+    ingrediente(1, "Taza", "Jugo de Limon");
+    ingrediente(1, "Diente", "Ajo");
+    ingrediente(1, "Cucharada", "Aceite de Oliva");
+    ingrediente(1, "Cucharadita", "Comino");
+    console.log("$cantidadIngrediente} ${unidad} ${nombre}");
   };
   ingrediente(1, "Lata", "Garbanzos");
   ingrediente(1, "Raspado", "Limon");
@@ -50,4 +57,5 @@ const humus = function (factor) {
   ingrediente(1, "Diente", "Ajo");
   ingrediente(1, "Cucharada", "Aceite de Oliva");
   ingrediente(1, "Cucharadita", "Comino");
+  console.log("$cantidadIngrediente} ${unidad} ${nombre}");
 };
