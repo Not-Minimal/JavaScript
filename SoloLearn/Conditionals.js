@@ -14,10 +14,19 @@ if (num1 < num2) {
 
 //alert() Make an a popup alert box that contains information inside paretheses.
 //
-//
+//The Else Statement
 var month = "september";
 if (month == "August") {
   console.log("vacation");
 } else {
   console.log("");
+}
+//The ElseIf statement
+var course = 1;
+if (course == 1) {
+  document.write("<h1>HTML Tutorial</h1>");
+} else if (course == 2) {
+  document.write("<h1>CSS Tutorial</h1>");
+} else {
+  document.write("<h1>JavasCript Tutorial</h1>");
 }
