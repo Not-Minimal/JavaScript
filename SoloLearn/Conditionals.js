@@ -30,3 +30,26 @@ if (course == 1) {
 } else {
   document.write("<h1>JavasCript Tutorial</h1>");
 }
+//The Switch Statement
+//switch (expression){
+//case 1:
+//  statement
+//  break;
+//case 2:
+//  statement
+//  break;
+//default:
+//  statement
+//}
+
+//For Loop Statement
+//for (statement 1; statement 2; statement 3){
+//code block to be executed
+//}
+for (let i = 1; i <= 5; i++) {
+  document.write(i + "<br />");
+}
+for (let i = 1, text = ""; i <= 5; i++) {
+  text = i * 3;
+  document.write(i + "<br />");
+}
