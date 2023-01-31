@@ -8,6 +8,7 @@ console.log("Primer Mensaje por Consola");
 */
 //Output
 //<script>
+document.write("Hola");
 document.write("Hola Mundo"); //document.write() function. This is what we need to use to write text into our HTML document.
 //</script>
 //

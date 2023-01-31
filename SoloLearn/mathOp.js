@@ -10,6 +10,7 @@ document.write(o);
 //Division
 var t = 100 / 5;
 document.write(t);
+var u = 2;
 //Modulo
 var modulo = 26 % 6;
 //Incrementar y Decrecer
