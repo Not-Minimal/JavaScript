@@ -63,3 +63,14 @@ while (u <= 10) {
   document.write(u + "<br />");
   u++;
 }
+//The DoWhile Loop
+//This loop will execute the code block once, before checking if the condition is true, and then
+//it will repear the loop as long as long as the condition is true
+//do {
+//statement
+//} while (condition);
+var x = 20;
+do {
+  document.write(x + "<br />");
+  x++;
+} while (x <= 25);
