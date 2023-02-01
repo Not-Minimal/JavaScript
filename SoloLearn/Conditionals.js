@@ -74,3 +74,19 @@ do {
   document.write(x + "<br />");
   x++;
 } while (x <= 25);
+//Break
+//Use it to jump out of a loop
+for (let p = 0; p <= 10; p++) {
+  if (p == 5) {
+    break;
+  }
+  document.write(p + "<br />");
+}
+//Unlike the break statement, the continue statement breaks
+//only one iteration in the loop, and continues with the next iteration.
+for (let l = 0; l <= 10; l++) {
+  if (l == 5) {
+    continue;
+  }
+  document.write(l + "<br />");
+}
