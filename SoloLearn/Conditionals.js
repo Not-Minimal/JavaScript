@@ -53,3 +53,13 @@ for (let i = 1, text = ""; i <= 5; i++) {
   text = i * 3;
   document.write(i + "<br />");
 }
+//The While Loop
+//The while loop repeats through a block of code, but only as long as specified condition is true
+//while (condition) {
+// statement
+//}
+let u = 0;
+while (u <= 10) {
+  document.write(u + "<br />");
+  u++;
+}
