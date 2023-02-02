@@ -90,3 +90,16 @@ for (let l = 0; l <= 10; l++) {
   }
   document.write(l + "<br />");
 }
+let sum = 0;
+for (c = 4; c < 8; c++) {
+  if (c == 6) {
+    continue;
+  }
+  sum += c;
+}
+document.write(sum);
+var x = 0;
+while (x < 6) {
+  x++;
+}
+document.write(x);
