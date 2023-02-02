@@ -3,3 +3,7 @@
 function name() {
   //code
 }
+function myFunction() {
+  alert("Calling a Function!");
+}
+myFunction();
