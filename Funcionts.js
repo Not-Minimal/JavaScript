@@ -4,7 +4,7 @@ function name() {
   //code
 }
 function myFunction() {
-  alert("Calling a Function!");
+  // alert("Calling a Function!");
 }
 myFunction();
 //Parametros de funcion
@@ -13,7 +13,7 @@ myFunction();
 //}
 //Using Parameters
 function sayHello(name) {
-  alert("Hi, " + name);
+  // alert("Hi, " + name);
 }
 sayHello("Saul");
 function sayHi(name, age) {
@@ -21,3 +21,15 @@ function sayHi(name, age) {
 }
 
 sayHi("John", 20);
+//Funcionts Returns
+//A function can have an optional return statement. It is used to return a value from the function.
+//
+function product(a, b) {
+  return a * b;
+}
+
+const result = product(8, 11);
+console.log(result);
+var average = avg(num1, num2, num3);
+var resultado = num1 + num2 + num3;
+return (resultado / 3);
