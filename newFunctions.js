@@ -7,12 +7,3 @@ function myFunction() {
   alert("Calling a Function!");
 }
 myFunction();
-//Parametros de funcion
-//functionName(parametro1, parametro2, parametro3){
-//some code
-//}
-//Using Parameters
-function sayHello(name) {
-  alert("Hi, " + name);
-}
-sayHello("Saul");
