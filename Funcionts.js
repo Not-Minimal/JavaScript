@@ -16,3 +16,8 @@ function sayHello(name) {
   alert("Hi, " + name);
 }
 sayHello("Saul");
+function sayHi(name, age) {
+  document.write(name + " is " + age + " years old.");
+}
+
+sayHi("John", 20);
