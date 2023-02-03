@@ -25,3 +25,8 @@ function person(name, age, color) {
   this.age = age;
   this.color = color;
 }
+//The keyword "new" is used for creating an instance of an object
+var p1 = new person("Pedro", 55, "Verde");
+var p2 = new person("Cheli", 11, "Rosado");
+document.write(p1.age); // 55
+document.write(p2.name); //Cheli
