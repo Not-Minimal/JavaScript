@@ -18,3 +18,10 @@ document.write(course.name.length);
 //Objects Methods
 //An Object method is a property that contains a function definition
 //objectName.methodName()
+//Object Constructors
+//In the previos, we created an object using the object literal.
+function person(name, age, color) {
+  this.name = name;
+  this.age = age;
+  this.color = color;
+}
