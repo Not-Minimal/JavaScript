@@ -15,3 +15,6 @@ var x = person.age;
 var y = person["age"];
 var course = { name: "JS", lessons: 41 };
 document.write(course.name.length);
+//Objects Methods
+//An Object method is a property that contains a function definition
+//objectName.methodName()
