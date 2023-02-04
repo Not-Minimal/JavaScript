@@ -30,3 +30,27 @@ var p1 = new person("Pedro", 55, "Verde");
 var p2 = new person("Cheli", 11, "Rosado");
 document.write(p1.age); // 55
 document.write(p2.name); //Cheli
+//Methods
+//Methods are functions that are stored as object properties
+//methodName = function(){CodeLines}
+//objectName.methodName() to access an object
+function persona(name, age) {
+  this.name = name;
+  this.age = age;
+  this.changeName = function (name) {
+    this.name = name;
+  };
+}
+var p = new persona("David", 21);
+p.changeName("Saul"); //NOw p.name = "Saul"
+//You can also define the function outside of the constructor function and associate it with the object
+function personaUno(name, age) {
+  this.name = name;
+  this.age = age;
+  this.yearOfBirth = bornYear;
+}
+function bornYear() {
+  return 2016 - this.age;
+}
+var p = new personaUno("A", 23);
+document.write(p.yearOfBirth());
