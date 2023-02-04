@@ -54,3 +54,6 @@ function bornYear() {
 }
 var p = new personaUno("A", 23);
 document.write(p.yearOfBirth());
+var number = 20;
+number *= 10;
+console.log(number);
