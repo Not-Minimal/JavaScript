@@ -131,16 +131,15 @@ function Miles(num) {
   if (strMiles == "") {
     return strCentenas;
   }
-  return strMiles + " " + strCentenas;
+  return strMiles + strCentenas;
 } //Miles()
 
 function Millones(num) {
   divisor = 1000000;
   cientos = Math.floor(num / divisor);
   resto = num - (cientos * divisor);
-  strMillones = Seccion(num, divisor, "UN MILLON", "UN MILLON DE");
+  strMillones = Seccion(num, divisor, "UN MILLON", "MILLONES DE");
   strMiles = Miles(resto);
-
   if (strMillones == "") {
     return strMiles;
   }
